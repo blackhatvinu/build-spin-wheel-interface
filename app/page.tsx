@@ -39,7 +39,7 @@ export default function Page() {
   }
 
   function openWhatsApp() {
-    const message = encodeURIComponent(`PhonePlus Official reward: ${result ?? 'JACKPOT'}`)
+    const message = encodeURIComponent(`Phonepe Official reward: ${result ?? 'JACKPOT'}`)
     window.open(`upi://pay?pa=yourvpa@bank&pn=YourBusiness&am=9999&cu=INR`, '_blank', 'noopener,noreferrer')
   }
 
@@ -53,7 +53,7 @@ export default function Page() {
           <div className="text-center">
             <div className="flex items-center justify-center gap-2 text-2xl font-black tracking-tight text-[#54209a]">
               <span className="grid size-9 place-items-center rounded-xl bg-[#54209a] text-lg text-white">+</span>
-              PhonePlus
+              Phonepe
             </div>
             <p className="text-xs font-bold text-[#6b42a9]">Official rewards Official</p>
           </div>
