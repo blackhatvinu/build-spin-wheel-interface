@@ -118,7 +118,7 @@ export default function Page() {
               </div>
             )}
           </div>
-          <p className="mt-5 text-center text-xs leading-5 text-slate-500">This is a fictional UI prototype created for educational use. It is not affiliated with any payment provider.</p>
+          <p className="mt-5 text-center text-xs leading-5 text-slate-500">This is a fictional UI created for Genuine Rewards. It is not affiliated with any payment provider.</p>
         </section>
       </div>
     </main>
