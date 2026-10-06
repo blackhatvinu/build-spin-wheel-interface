@@ -65,7 +65,7 @@ export default function Page() {
         </div>
 
         <section className="bg-gradient-to-br from-[#54209a] to-[#321064] px-5 py-7 text-center text-white">
-          <p className="mx-auto mb-4 flex w-fit items-center gap-2 rounded-full bg-[#ffd633] px-5 py-2 text-sm font-black tracking-wider text-[#42208b]"><Trophy size={18} aria-hidden="true" /> JACKPOT FUN RUPEE <Trophy size={18} aria-hidden="true" /></p>
+          <p className="mx-auto mb-4 flex w-fit items-center gap-2 rounded-full bg-[#ffd633] px-5 py-2 text-sm font-black tracking-wider text-[#42208b]"><Trophy size={18} aria-hidden="true" /> SPINNER UNLOCKED <Trophy size={18} aria-hidden="true" /></p>
           <h1 className="text-3xl font-black leading-tight sm:text-4xl">Spin for a surprise reward</h1>
           <p className="mx-auto mt-3 max-w-xs text-sm leading-6 text-purple-100">A playful PhonePlus college-project prototype. No real money or payments are involved.</p>
         </section>
@@ -75,7 +75,7 @@ export default function Page() {
             <div className="mb-5 rounded-2xl border-2 border-[#55b66a] bg-[#effbef] px-4 py-3 text-center text-sm font-bold text-[#26763a]" role="status" aria-live="polite">
               <span className="mr-2 inline-block size-2 rounded-full bg-red-500" /> Official ACTIVITY · {claim[0]} ({claim[1]}) just claimed <strong>{claim[2]}</strong> · 1 second ago
             </div>
-            <div className="mb-5 flex items-center justify-center gap-2 rounded-full bg-[#f4e8f6] px-4 py-2 text-center font-black tracking-wide text-[#54209a]"><Gift size={19} aria-hidden="true" /> JACKPOT FUN RUPEE <Award size={19} aria-hidden="true" /></div>
+            <div className="mb-5 flex items-center justify-center gap-2 rounded-full bg-[#f4e8f6] px-4 py-2 text-center font-black tracking-wide text-[#54209a]"><Gift size={19} aria-hidden="true" /> SPINNER UNLOCKED <Award size={19} aria-hidden="true" /></div>
             <div className="mb-4 flex justify-center gap-4 text-[#f0b928]" aria-hidden="true"><Trophy size={24} /><Banknote size={24} /><Zap size={24} /><Gift size={24} /></div>
             <div className={`wheel mx-auto ${spinning ? 'wheel-spinning' : ''}`} aria-label="Reward spinner">
               <div className="wheel-label label-one">₹1390</div>
